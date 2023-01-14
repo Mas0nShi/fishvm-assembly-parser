@@ -7,7 +7,7 @@
 
 int main(int argc, char const *argv[])
 {
-    std::ifstream inFile("/Users/mason/c-vm-implement/examples/write.asm");
+    std::ifstream inFile("examples/write.asm");
     std::string source((std::istreambuf_iterator<char>(inFile)), std::istreambuf_iterator<char>());
     
     std::cout << "Read Content: \n" << source << std::endl;
