@@ -7,7 +7,7 @@ implement a simple assembly language parser to parse x86-like assembly.
 
 ## Grammar
 
-[Grammar for the Fish VM assembly language.](grammer.md)
+[Grammar for the Fish VM assembly language.](grammer.txt)
 
 ## Lexer
 
